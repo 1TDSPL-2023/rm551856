@@ -1,0 +1,17 @@
+.contudo{
+    display: flex;
+    flex: wrap 800px;
+    max-width: 80vw;
+    margin: 0 auto;
+}
+
+.contudo > div img{
+    display: block; 
+    max-width: 100%;
+}
+
+.contudo > div{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 300px;
+}
