@@ -1,10 +1,25 @@
 @import url(".cabecalho");
 @import url(".contudo");
-
+@import url("./rodape.css");
+@import url("./break-point-630px.css");
+  
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-  }
-  
-  
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+html{
+    font-size: 62.7%;
+}
+
+.tit-sec{
+    text-align: center;
+    font-size: 5rem;
+}
+
+/* vw = View Width
+vh = View height 
+    
+*/
+

@@ -11,7 +11,7 @@
   display: flex;
   justify-content: space-around;
   width: 60%;
-  height: 100%;
+  height: 10vh;
   flex-wrap: wrap;
 }
 
@@ -27,7 +27,7 @@
   font-weight: 700;
   color: #fff;
   text-align: center;
-  padding: 20% 0;
+  padding: 20vh 0;
 }
 
 /* UTILIZANDO A PSEUDO CLASSE HOVER */
