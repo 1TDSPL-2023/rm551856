@@ -1,17 +1,16 @@
 .cabecalho{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    background-color: #000000;
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #000000;
 }
 
 .cabecalho nav{
   display: flex;
   justify-content: space-around;
-  width: 60%;
-  height: 10vh;
+  width: 60vw;
+  height: 45vh;
   flex-wrap: wrap;
 }
 
