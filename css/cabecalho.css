@@ -28,6 +28,9 @@
   text-align: center;
   padding: 20vh 0;
 }
+/* vw = View Width
+vh = View height */
+
 
 /* UTILIZANDO A PSEUDO CLASSE HOVER */
       .cabecalho a:hover {

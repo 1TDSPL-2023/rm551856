@@ -20,9 +20,35 @@ html{
 }
 
 
+/* TABELA */
 
-/* vw = View Width
-vh = View height 
-    
-*/
+table{
+  margin: 5% auto;
+  border-collapse: collapse;
+}
+
+td,th{
+  border:1px solid #131313;
+  padding: 8px;
+}
+
+tr:nth-child(even){
+  background-color: #dddddd;
+}
+tr:nth-child(odd){
+  background-color: #cccccc;
+}
+
+tr:hover{
+  background-color: #39125ebd;
+  color: #000000;
+}
+
+td[colspan], td[rowspan]{
+  text-align: center;
+}
+
+/* TABELA */
+
+
 
