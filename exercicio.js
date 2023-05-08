@@ -10,6 +10,7 @@ function mudarFundo() {
   indiceCor = (indiceCor + 1) % cores.length;
 }
 
+
 //  Botão Formulário
 const botao = document.getElementById("botao");
 const lista = document.getElementById("lista");
@@ -20,6 +21,7 @@ botao.addEventListener("click", function() {
     novoItem.textContent = texto;
     lista.appendChild(novoItem);
   });
+
 
   
 // Botão troca imagem
@@ -36,3 +38,12 @@ function trocaimg () {
     imgAnterior = aux;
 
 }
+
+
+
+// Botão para ocultar imagem
+function ocultar() {
+    var elemento = document.getElementById("imagem");
+    elemento.style.display = "none";
+  }
+  
