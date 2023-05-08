@@ -47,3 +47,15 @@ function ocultar() {
     elemento.style.display = "none";
   }
   
+
+
+// Botão mensagem
+const myButton = document.getElementById("myButton");
+const myMessage = document.getElementById("myMessage");
+
+    // click do botão
+myButton.addEventListener("click", function() {
+    // mensagem exibida
+  const mensagem = "Tenha um bom dia!";
+  myMessage.textContent = mensagem;
+});
