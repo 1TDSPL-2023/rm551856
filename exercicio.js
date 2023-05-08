@@ -9,3 +9,15 @@ function mudarFundo() {
   document.body.style.backgroundColor = cores[indiceCor];
   indiceCor = (indiceCor + 1) % cores.length;
 }
+
+//  Botão Formulário
+const botao = document.getElementById("botao");
+const lista = document.getElementById("lista");
+
+botao.addEventListener("click", function() {
+    const texto = document.getElementById("texto").value;
+    const novoItem = document.createElement("li");
+    novoItem.textContent = texto;
+    lista.appendChild(novoItem);
+  });
+  
