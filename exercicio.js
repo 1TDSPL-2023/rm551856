@@ -20,4 +20,19 @@ botao.addEventListener("click", function() {
     novoItem.textContent = texto;
     lista.appendChild(novoItem);
   });
+
   
+// Botão troca imagem
+  // Carregando o caminho das imagens em variáveis
+var imgAtual = "./img/imagem2.jpg";
+var imgAnterior = "./img/imagem1.jpg";
+
+//Inicia a função de trocar
+function trocaimg () {
+    // Evento de clique do botão
+    document.getElementById("imagem").src = imgAtual;
+    let aux = imgAtual;
+    imgAtual = imgAnterior;
+    imgAnterior = aux;
+
+}
