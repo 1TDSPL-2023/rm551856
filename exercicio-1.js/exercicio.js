@@ -36,7 +36,6 @@ function trocaimg () {
     let aux = imgAtual;
     imgAtual = imgAnterior;
     imgAnterior = aux;
-
 }
 
 
